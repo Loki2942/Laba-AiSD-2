@@ -13,7 +13,7 @@
 """
 import re
 
-file = open("1.txt", "r")
+file = open("text.txt", "r")
 while True:
     string = file.read().split()
     if not string:  # когда файл обработан или пустой
